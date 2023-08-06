@@ -1,0 +1,26 @@
+.div-nav {
+    background-color: whitesmoke;
+}
+
+
+.navigation ul {
+margin: 0;
+padding-top: 15px;
+padding-bottom: 15px;
+
+display: flex;
+justify-content: right;
+gap: 25px;
+list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+ul li a {
+font-size: 1.5rem;
+color: black;
+}
+
