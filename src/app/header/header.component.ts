@@ -11,4 +11,10 @@ import { RouterModule } from '@angular/router';
 })
 export class HeaderComponent {
 
+
+  isAuthenticated = false
+
+
+
+
 }

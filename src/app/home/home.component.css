@@ -1,11 +1,27 @@
-body {
-  margin: 0;
-}
+
 div {
   min-height: 100vh;
   background: url("src/assets/images/houses.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed; /* Keeps the background fixed even on scroll */
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+
+.home-header {
+  text-align: center;
+  
+}
+
+.home-header h1 {
+  color: white;
+  font-size: 3rem;
+
 }
 
 /* Media query for smaller screens */

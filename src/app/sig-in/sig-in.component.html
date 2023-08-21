@@ -2,11 +2,12 @@
   <div class="container">
     <h2>Login</h2>
     <form>
+      <!-- <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()"> -->
       <label for="username">Email:</label>
-      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required formControlName="email" >
 
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required formControlName="password">
 
       <button type="submit">Login</button>
     </form>
