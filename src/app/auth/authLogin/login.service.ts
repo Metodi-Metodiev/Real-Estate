@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 
+
 @Injectable({
   providedIn: 'root'
 })
-export class RegisterService {
+export class LoginService {
 
-  constructor() { }
+
 }

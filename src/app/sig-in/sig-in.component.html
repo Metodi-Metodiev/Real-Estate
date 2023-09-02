@@ -1,15 +1,16 @@
 <div class="login">
   <div class="container">
     <h2>Login</h2>
-      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-        <label for="username">Email:</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required formControlName="email" >
+    
+    <form>
+      <label for="username">Email:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required  >
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required formControlName="password">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required >
 
-        <button type="submit">Login</button>
-      </form>
+      <button type="submit">Login</button>
+    </form>
 
     <p class="emailValidation">Invalid email address.</p>
     <p class="loginError">Invalid email or password.</p>

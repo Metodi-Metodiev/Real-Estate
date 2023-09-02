@@ -6,7 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { SigInComponent } from './sig-in/sig-in.component';
 
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
